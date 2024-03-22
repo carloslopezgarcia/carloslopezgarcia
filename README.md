@@ -16,19 +16,21 @@ Here are some ideas to get you started:
 -->
 ```js
 import SoftwareDeveloper from 'carloslopezgarcia';
+from SoftwareDeveloper import carloslopezgarcia
 
-class Bio extends SoftwareDeveloper {
-  name     = 'Carlos López';
-  title    = 'Software Engineer';
-  company  = 'Valor Indirecto | BigIndex | Grupo Reacciona';
-  location = 'Madrid, ES';
-}
+class Bio(carloslopezgarcia):
+  name     = 'Carlos López'
+  title    = 'Software Engineer'
+  company  = ['Valor Indirecto', 'BigIndex', 'Grupo Reacciona']
+  location = 'Madrid, ES'
 
-class Skills extends SoftwareDeveloper {
-  languages  = ['JavaScript', 'PHP', 'Python'];
-  databases  = ['MySQL', 'MongoDB', 'PostgreSQL', 'SQL Server'];
-  frameworks = ['React', 'React Native', 'Angular', 'GraphQL'];
-}
+
+class Skills(carloslopezgarcia):
+  languages  = ['JavaScript', 'PHP', 'Python']
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL', 'SQL Server']
+  frameworks = ['FastAPI']
+  operating_systems = ['Windows', 'Linux', 'Mac']
+
 ```
 ----
 
