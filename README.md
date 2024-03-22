@@ -14,8 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```js
-import SoftwareDeveloper from 'carloslopezgarcia';
+```python
 from SoftwareDeveloper import carloslopezgarcia
 
 class Bio(carloslopezgarcia):
