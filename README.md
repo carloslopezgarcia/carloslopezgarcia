@@ -26,7 +26,7 @@ class Bio(carloslopezgarcia):
 
 class Skills(carloslopezgarcia):
   languages  = ['JavaScript', 'PHP', 'Python']
-  databases  = ['MySQL', 'MongoDB', 'PostgreSQL', 'SQL Server']
+  databases  = ['MySQL', 'SQL Server']
   frameworks = ['FastAPI']
   operating_systems = ['Windows', 'Linux', 'Mac']
 
